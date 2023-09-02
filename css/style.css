@@ -12,7 +12,6 @@ body {
 
 /* Navigation Bar */
 .navbar {
-  margin-bottom: 20px;
   background-color: #f6f6f2; /* Rich Blue */
   padding-left: 50px;
   padding-right: 50px;
@@ -39,35 +38,35 @@ body {
 /* Jumbotron */
 .jumbotron {
   background-color: #badfe7;
-  padding: 10rem 0;
+  padding: 5rem 0;
   text-align: center;
   margin: 0px;
   position: relative;
-  overflow: hidden;
-  height: 75vh;
+  height: 80vh;
 }
 
 .jumbotron h1 {
-  font-size: 60px;
+  font-size: 70px;
   color: #6fb3b8;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .jumbotron p {
   font-size: 20px;
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .jumbotron a {
   color: #41b3a3; /* Teal Green */
   text-decoration: underline;
+  font-size: 20px;
 }
 
 /* Footer */
 footer {
-  margin-top: 50px;
-  padding: 20px 0;
+  margin-top: 20px;
+  padding: 5px 0;
   background-color: #388087; /* Dark Blue */
   color: #edf6f9; /* Light Blue */
   text-align: center; 

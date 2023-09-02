@@ -11,16 +11,87 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+
+        .contact-section {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .contact-heading {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .email-link {
+            font-size: 18px;
+            margin: 20px 0;
+            display: block;
+            text-decoration: none;
+        }
+
+        .social-icons {
+            font-size: 24px;
+            margin: 10px;
+        }
+
+        .join-club {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px 0;
+            background-color: #388087;
+            /* Dark Blue */
+            color: #edf6f9;
+            /* Light Blue */
+            text-align: center;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
     <div id="nav-placeholder"></div>
 
-    <h1 class="text-center my-5">Contact</h1>
+    <div class="container contact-section">
+        <h1 class="contact-heading">Contact</h1>
 
-    <a href="mailto:azxyxza@student.ubc.ca">
-        email us
-    </a>
+        <a href="mailto:azxyxza@student.ubc.ca" class="email-link">
+            Email us at Official email
+        </a>
+
+        <!-- Add Font Awesome icons for social media -->
+        <a href="#" class="fa fa-facebook social-icons"></a>
+        <a href="#" class="fa fa-instagram social-icons"></a>
+
+        <hr>
+        <h1 class="contact-heading">Want to join?</h1>
+        <p class="join-club">Free to join, but a voluntary $1-$10 donation is appreciated!</p>
+    </div>
+
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2023 LIFT Science Club</p>
+        </div>
+    </footer>
+
 
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -40,8 +111,3 @@
 </body>
 
 </html>
-
-
-
-
-

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFT Science club</title>
+    <!---TODO: add webpage icon-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style>
+        /* Additional CSS for centering and styling */
+        .my-md-3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .bg-dark,
+        .bg-light {
+            flex: 1;
+            min-width: 300px;
+            max-width: 400px;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 21px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .bg-dark {
+            background-color: #293241; /* Dark Blue */
+            color: #fff;
+        }
+
+        .bg-light {
+            background-color: #f6bd60; /* Mustard Yellow */
+            color: #293241;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav-placeholder"></div>
+    <h1 class="text-center my-5">Club Structure</h1>
+
+    <div class="container my-md-3 pl-md-3">
+        <div class="bg-dark pt-3 px-3 text-center text-white overflow-hidden">
+            <div class="my-3 py-3">
+                <h2 class="display-5">Education</h2>
+                <a href="resources.html">Learn more...</a>
+            </div>
+            <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+        </div>
+        <div class="bg-light pt-3 px-3 text-center overflow-hidden">
+            <div class="my-3 p-3">
+                <h2 class="display-5">Funding</h2>
+                <a href="funding.html">Learn more...</a>
+            </div>
+            <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script>
+        $.get("navbar.html", function (data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/js/jquery-slim.min.js"><\/script>')</script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/holder.min.js"></script>
+
+</body>
+
+</html>

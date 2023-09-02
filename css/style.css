@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+  font-family: "Playfair Display", serif;
+  background-color: #f6f6f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+/* Navigation Bar */
+.navbar {
+  margin-bottom: 20px;
+  background-color: #f6f6f2; /* Rich Blue */
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.navbar-brand {
+  font-size: 50px;
+  color: #293241; /* Light Blue */
+}
+
+.collapse {
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #41b3a3; /* Teal Green */
+}
+
+/* Adjust the spacing between navbar links */
+.navbar-nav {
+  margin-right: auto;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-color: #badfe7;
+  padding: 10rem 0;
+  text-align: center;
+  margin: 0px;
+  position: relative;
+  overflow: hidden;
+  height: 75vh;
+  z-index: -1;
+}
+
+.jumbotron h1 {
+  font-size: 60px;
+  color: #6fb3b8;
+  margin-bottom: 20px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.jumbotron a {
+  color: #41b3a3; /* Teal Green */
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  padding: 20px 0;
+  background-color: #388087; /* Dark Blue */
+  color: #edf6f9; /* Light Blue */
+  text-align: center; 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Centering Content */
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.center-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.center-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}

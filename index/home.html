@@ -1,61 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>LIFT Science club</title>
-	<!---TODO: add webpage icon-->
-	<link rel="icon" type="image/jpg" href="images/">
-	<link rel="stylesheet" type="text/css" href="/css/styles.css">
-	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LIFT Science club</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+<link href="/css/style.css" rel="stylesheet">
+<!---TODO: add webpage icon-->
+<link rel="icon" type="image/jpg" href="images/">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<style>
+	footer {
+		margin-top: 50px;
+		padding: 20px 0;
+		background-color: #388087;
+		/* Dark Blue */
+		color: #edf6f9;
+		/* Light Blue */
+		text-align: center;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+	}
+</style>
 </head>
-<h1>LIFT Science</h1>
-<br>
 
-<nav class="navbar navbar-inverse">
-	<div class="container-fluid">
-	  <div class="navbar-header">
-		<a class="navbar-brand" href="#">LIFT</a>
-	  </div>
-	  <ul class="nav navbar-nav">
-		<li class="active"><a href="home.html">LIFT</a></li>
-		<li class="dropdown">
-		  <a class="dropdown-toggle" data-toggle="dropdown" href="#">About
-		  <span class="caret"></span></a>
-		  <ul class="dropdown-menu">
-			<li><a href="club_structure.html">Club Structure</a></li>
-			<li><a href="targe_region.html">Target Region</a></li>
-			<li><a href="donation.html">Donation</a></li>
-			<li><a href="team.html">Meet our team</a></li>
-		  </ul>
-		</li>
-		<li><a href="resources.html">Resources</a></li>
-		<li><a href="events.html">Events</a></li>
-		<li><a href="contact.html">Contact</a></li>
-	  </ul>
+<div id="nav-placeholder"></div>
+
+<div class="jumbotron text-white">
+	<div class="container">
+		<h1 class="display-4">LIFT Science</h1>
+		<p class="lead my-3">There is a gap in accessible education in developing countries, particularly for science
+			education in marginalized communities. Our club aims to create a platform at UBC to address that gap. Our
+			aspiration is to create a substantial impact on people from the most underserved communities by gathering
+			the collective contributions of everyone who joins us.</p>
+		<hr class="my-4">
+		<a class="btn btn-primary btn-lg" href="target_region.html" role="button">Target region</a>
 	</div>
-  </nav>
+</div>
 
-<main>
-	<h3></h3>
-</main>
 
-<h3>Vision:</h3>
-<pre>
-		There is a gap in accessible education in developing countries, 
-		particularly for science education in marginalized communities. 
-		Our club aims to create a platform at UBC to address that gap. 
-		Our aspiration is to create a substantial impact on people from 
-		the most underserved communities by gathering the collective 
-		contributions of everyone who joins us.
-	</pre>
+<!-- <div class="container my-5">
+	<div class="card shadow p-3 mb-5 bg-white rounded">
+	 <img src="/image/class.jpg" class="card-img-top" alt="..."> -->
+<!-- <div class="card-body text-center">
+			<h5 class="card-title">Target Region</h5>
+			<a href="target_region.html" class="btn btn-primary">Learn More</a>
+		</div>
+	</div>
+</div> -->
 
-<br>
-<a href="target_region.html">
-	Target region
-</a>
 
+</body>
+
+<footer class="bg-dark text-white text-center py-4">
+	<div class="container">
+		<p>&copy; 2023 LIFT Science Club</p>
+	</div>
+</footer>
+
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script>
+	$.get("navbar.html", function (data) {
+		$("#nav-placeholder").replaceWith(data);
+	});
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+	integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="/js/jquery-slim.min.js"><\/script>')</script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/holder.min.js"></script>
 
 </body>
 

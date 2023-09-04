@@ -16,8 +16,10 @@ body {
 /* Navigation Bar */
 .navbar {
   background-color: #f6f6f2; /* Rich Blue */
+  color:#05204a;
   padding-left: 50px;
   padding-right: 50px;
+  margin-bottom: 0;
 }
 
 .navbar-brand {
@@ -30,7 +32,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #41b3a3; /* Teal Green */
+  color:#6f8695; /* Teal Green */
 }
 
 /* Adjust the spacing between navbar links */
@@ -40,7 +42,9 @@ body {
 
 /* Jumbotron */
 .jumbotron {
-  background-color: #badfe7;
+  background-image: url("/image/background.jpeg");
+  background-size: cover; /* Adjust background-size property as needed */
+  background-repeat: no-repeat;
   padding: 5rem 0;
   text-align: center;
   margin: 0px;
@@ -50,18 +54,18 @@ body {
 
 .jumbotron h1 {
   font-size: 70px;
-  color: #6fb3b8;
+  color: #05204a;
   margin-bottom: 30px;
 }
 
 .jumbotron p {
   font-size: 20px;
-  color: #fff;
+  color: grey;
   margin-bottom: 40px;
 }
 
 .jumbotron a {
-  color: #41b3a3; /* Teal Green */
+  color: #05204a; /* Teal Green */
   text-decoration: underline;
   font-size: 20px;
 }
@@ -70,7 +74,7 @@ body {
 footer {
   /* margin-top: 60px; */
   padding: 40px 0;
-  background-color: #388087;
+  background-color: #05204a;
   /* Dark Blue */
   color: #edf6f9;
   /* Light Blue */

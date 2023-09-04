@@ -11,24 +11,35 @@
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
 	<link href="/css/style.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<style>
+		.card-img-top {
+			height: 200px;
+			/* Set a fixed height for the images */
+			object-fit: cover;
+			/* Crop and center the image within the fixed height */
+		}
+	</style>
 </head>
 
 <body>
 	<div id="nav-placeholder"></div>
-	<div class="container text-center">
+	<div class="container text-center card-img-top">
 		<h1 class="my-5">Target Region</h1>
 
-		<p class="my-4">Vision of Albarta School is a private school registered by the government ministry. It started
+		<p class="my-4" style="font-family: Gill Sans, sans-serif">Vision of Albarta School is a private school
+			registered by the government ministry. It started
 			in 2018 and offers education to grades 9 to 12. The school is located in the heart of Korogocho, which is
 			one of the largest slum regions in Kenya. </p>
 		<a href="https://drive.google.com/drive/folders/1CHtzt4Cu-9Q1oeaq9_G6VHOrDDELDC0k"> Learn more...</a>
+		<br>
 	</div>
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-3">
 				<div class="card mb-4 box-shadow">
-					<img class="card-img-top" src="/image/class.jpg" alt="Card image cap">
+					<a href="#imageModal1" data-toggle="modal" data-target="#imageModal1">
+						<img class="card-img-top img-fluid" src="/image/class.jpg" alt="Card image cap"></a>
 					<div class="card-body">
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to
 							additional content. This content is a little bit longer.</p>
@@ -38,66 +49,113 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+
+			<!-- Image 2 -->
+			<div class="col-md-3">
 				<div class="card mb-4 box-shadow">
-					<img class="card-img-top" src="/image/class.jpg" alt="Card image cap">
+					<a href="#imageModal2" data-toggle="modal" data-target="#imageModal2">
+						<img class="card-img-top img-fluid" src="/image/house.jpg" alt="Card image cap">
+					</a>
 					<div class="card-body">
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to
 							additional content. This content is a little bit longer.</p>
 						<div class="d-flex justify-content-between align-items-center">
-
 							<small class="text-muted">2023</small>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+
+			<!-- Image 3 -->
+			<div class="col-md-3">
 				<div class="card mb-4 box-shadow">
-					<img class="card-img-top" src="/image/class.jpg" alt="Card image cap">
+					<a href="#imageModal3" data-toggle="modal" data-target="#imageModal3">
+						<img class="card-img-top img-fluid" src="/image/man.jpg" alt="Card image cap">
+					</a>
 					<div class="card-body">
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to
 							additional content. This content is a little bit longer.</p>
 						<div class="d-flex justify-content-between align-items-center">
-
 							<small class="text-muted">2023</small>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+
+			<!-- Image 4 -->
+			<div class="col-md-3">
 				<div class="card mb-4 box-shadow">
-					<img class="card-img-top" src="/image/class.jpg" alt="Card image cap">
+					<a href="#imageModal4" data-toggle="modal" data-target="#imageModal4">
+						<img class="card-img-top img-fluid" src="/image/city.jpg" alt="Card image cap">
+					</a>
 					<div class="card-body">
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to
 							additional content. This content is a little bit longer.</p>
 						<div class="d-flex justify-content-between align-items-center">
-
 							<small class="text-muted">2023</small>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+
+			<!-- Image 5 -->
+			<div class="col-md-3">
 				<div class="card mb-4 box-shadow">
-					<img class="card-img-top" src="/image/class.jpg" alt="Card image cap">
+					<a href="#imageModal5" data-toggle="modal" data-target="#imageModal5">
+						<img class="card-img-top img-fluid" src="/image/class2.jpg" alt="Card image cap">
+					</a>
 					<div class="card-body">
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to
 							additional content. This content is a little bit longer.</p>
 						<div class="d-flex justify-content-between align-items-center">
-
 							<small class="text-muted">2023</small>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+
+			<!-- Image 6 -->
+			<div class="col-md-3">
 				<div class="card mb-4 box-shadow">
-					<img class="card-img-top" src="/image/class.jpg" alt="Card image cap">
+					<a href="#imageModal6" data-toggle="modal" data-target="#imageModal6">
+						<img class="card-img-top img-fluid" src="/image/student.jpg" alt="Card image cap">
+					</a>
 					<div class="card-body">
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to
 							additional content. This content is a little bit longer.</p>
 						<div class="d-flex justify-content-between align-items-center">
+							<small class="text-muted">2023</small>
+						</div>
+					</div>
+				</div>
+			</div>
 
+			<!-- Image 7 -->
+			<div class="col-md-3">
+				<div class="card mb-4 box-shadow">
+					<a href="#imageModal7" data-toggle="modal" data-target="#imageModal7">
+						<img class="card-img-top img-fluid" src="/image/teacher.jpg" alt="Card image cap">
+					</a>
+					<div class="card-body">
+						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+							additional content. This content is a little bit longer.</p>
+						<div class="d-flex justify-content-between align-items-center">
+							<small class="text-muted">2023</small>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Image 8 -->
+			<div class="col-md-3">
+				<div class="card mb-4 box-shadow">
+					<a href="#imageModal8" data-toggle="modal" data-target="#imageModal8">
+						<img class="card-img-top img-fluid" src="/image/bottle.jpg" alt="Card image cap">
+					</a>
+					<div class="card-body">
+						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+							additional content. This content is a little bit longer.</p>
+						<div class="d-flex justify-content-between align-items-center">
 							<small class="text-muted">2023</small>
 						</div>
 					</div>
@@ -106,10 +164,154 @@
 		</div>
 	</div>
 
+	<!-- Modal for Image 1 -->
+	<div class="modal fade" id="imageModal1" tabindex="-1" role="dialog" aria-labelledby="imageModal1Label"
+		aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="imageModal1Label">Image 1</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="/image/class.jpg" class="img-fluid" alt="Image 1">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal for Image 2 -->
+	<div class="modal fade" id="imageModal2" tabindex="-1" role="dialog" aria-labelledby="imageModal2Label"
+		aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="imageModal2Label">Image 2</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="/image/house.jpg" class="img-fluid" alt="Image 2">
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <footer>
-        <p>&copy; 2023 LIFT Science Club</p>
-    </footer>
+	<!-- Modal for Image 3 -->
+	<div class="modal fade" id="imageModal3" tabindex="-1" role="dialog" aria-labelledby="imageModal3Label"
+		aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="imageModal3Label">Image 3</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="/image/man.jpg" class="img-fluid" alt="Image 3">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal for Image 4 -->
+	<div class="modal fade" id="imageModal4" tabindex="-1" role="dialog" aria-labelledby="imageModal4Label"
+		aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="imageModal4Label">Image 4</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="/image/city.jpg" class="img-fluid" alt="Image 4">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal for Image 5 -->
+	<div class="modal fade" id="imageModal5" tabindex="-1" role="dialog" aria-labelledby="imageModal5Label"
+		aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="imageModal5Label">Image 5</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="/image/class2.jpg" class="img-fluid" alt="Image 5">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal for Image 6 -->
+	<div class="modal fade" id="imageModal6" tabindex="-1" role="dialog" aria-labelledby="imageModal6Label"
+		aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="imageModal6Label">Image 6</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="/image/student.jpg" class="img-fluid" alt="Image 6">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal for Image 7 -->
+	<div class="modal fade" id="imageModal7" tabindex="-1" role="dialog" aria-labelledby="imageModal7Label"
+		aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="imageModal7Label">Image 7</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="/image/teacher.jpg" class="img-fluid" alt="Image 7">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal for Image 8 -->
+	<div class="modal fade" id="imageModal8" tabindex="-1" role="dialog" aria-labelledby="imageModal8Label"
+		aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="imageModal8Label">Image 8</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="/image/bottle.jpg" class="img-fluid" alt="Image 8">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<footer>
+		<p>&copy; 2023 LIFT Science Club</p>
+	</footer>
 
 	<!-- Bootstrap core JavaScript
 	Placed at the end of the document so the pages load faster -->
@@ -118,13 +320,14 @@
 			$("#nav-placeholder").replaceWith(data);
 		});
 	</script>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+	<script src="https://code.jquery.com/jquery-5.3.1.slim.min.js"
 		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
 		crossorigin="anonymous"></script>
 	<script>window.jQuery || document.write('<script src="/js/jquery-slim.min.js"><\/script>')</script>
 	<script src="/js/popper.min.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<script src="/js/holder.min.js"></script>
+
 
 </body>
 

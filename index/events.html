@@ -12,20 +12,49 @@
 	<link href="/css/style.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	<style>
-		.featurette-heading{
-			font-family: 'Playfair Display', serif; 
-            font-weight: bold; 
+		h1,
+		h2,
+		h3,
+		h4,
+		h5 {
+			font-family: Arial, sans-serif;
+			font-weight: bold;
 		}
-		.lead{
+
+		.featurette-heading {
+			font-size: 24px;
+			font-family: 'Playfair Display', serif;
+			font-weight: bold;
+		}
+
+		.lead {
 			font-family: "Gill Sans", sans-serif;
+		}
+
+		.sidebar {
+			background-color: #f8f9fa;
+			padding: 20px;
+		}
+
+		.sidebar h4 {
+			font-weight: bold;
+		}
+
+		.sidebar ol {
+			list-style: none;
+			padding: 0;
+		}
+
+		.sidebar ol li {
+			margin-bottom: 10px;
 		}
 	</style>
 </head>
 
+<div id="nav-placeholder"></div>
 <body>
-	<div id="nav-placeholder"></div>
-	<h1 class="text-center my-5">Events</h1>
 	<main role="main" class="container">
+		<h1 class="text-center my-5">Events</h1>
 		<div class="row">
 			<div class="col-md-9">
 				<h3 class="text-center my-5">Upcoming Events:</h3>

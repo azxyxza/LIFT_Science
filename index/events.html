@@ -11,50 +11,96 @@
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
 	<link href="/css/style.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<style>
+		.featurette-heading{
+			font-family: 'Playfair Display', serif; 
+            font-weight: bold; 
+		}
+		.lead{
+			font-family: "Gill Sans", sans-serif;
+		}
+	</style>
 </head>
 
 <body>
 	<div id="nav-placeholder"></div>
-
 	<h1 class="text-center my-5">Events</h1>
+	<main role="main" class="container">
+		<div class="row">
+			<div class="col-md-9">
+				<h3 class="text-center my-5">Upcoming Events:</h3>
+				<div class="container">
+					<div class="row featurette">
+						<div class="col-md-4">
+							<img class="featurette-image img-fluid mx-auto" data-src="holder.js/300x300/auto"
+								alt="Generic placeholder image">
+						</div>
+						<div class="col-md-8">
+							<h2 class="featurette-heading">Event name</h2>
+							<span class="text-muted">Sep 11 2023</span>
+							<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula
+								porta felis
+								euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce
+								dapibus,
+								tellus ac cursus commodo.</p>
+						</div>
+					</div>
 
-	<h3 class="text-center my-5">Upcoming Events:</h3>
-	<div class="container">
-		<div class="row featurette">
-			<div class="col-md-7">
-				<h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your
-						mind.</span></h2>
-				<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
-					euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
-					tellus ac cursus commodo.</p>
-			</div>
-			<div class="col-md-5">
-				<img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
-					alt="Generic placeholder image">
-			</div>
-		</div>
+					<hr class="featurette-divider">
+					<h3 class="text-center my-5">Past Events:</h3>
+					<div class="row featurette">
 
-		<hr class="featurette-divider">
-		<h3 class="text-center my-5">Past Events:</h3>
-		<div class="row featurette">
-			<div class="col-md-8 order-md-2">
-				<h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for
-						yourself.</span></h2>
-				<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
-					euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
-					tellus ac cursus commodo.</p>
+						<div class="col-md-8">
+							<h2 class="featurette-heading">Event name</h2>
+							<span class="text-muted">Sep 05 2023</span>
+							<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula
+								porta felis
+								euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce
+								dapibus,
+								tellus ac cursus commodo.</p>
+						</div>
+						<div class="col-md-4">
+							<img class="featurette-image img-fluid mx-auto" data-src="holder.js/300x300/auto"
+								alt="Generic placeholder image">
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-4 order-md-1">
-				<img class="featurette-image img-fluid mx-auto" data-src="holder.js/300x300/auto"
-					alt="Generic placeholder image">
-			</div>
-		</div>
-	</div>
+
+			<!-- Move the sidebar outside the col-md-9 div to make it appear on the right -->
+			<aside class="col-md-3 sidebar">
+				<div class="p-3">
+					<h4 class="font-italic">Archives</h4>
+					<ol class="list-unstyled mb-0">
+						<li><a href="#">March 2024</a></li>
+						<li><a href="#">February 2024</a></li>
+						<li><a href="#">January 2024</a></li>
+						<li><a href="#">December 2023</a></li>
+						<li><a href="#">November 2023</a></li>
+						<li><a href="#">October 2023</a></li>
+						<li><a href="#">September 2023</a></li>
+						<li><a href="#">August 2023</a></li>
+						<li><a href="#">July 2023</a></li>
+						<li><a href="#">June 2023</a></li>
+						<li><a href="#">May 2023</a></li>
+						<li><a href="#">April 2023</a></li>
+					</ol>
+				</div>
+			</aside>
+		</div><!-- /.row -->
+	</main>
+
+	<br>
+	<br>
+
+
+
+
 
 
 	<footer>
-        <p>&copy; 2023 LIFT Science Club</p>
-    </footer>
+		<p>&copy; 2023 LIFT Science Club</p>
+	</footer>
 
 	<!-- Bootstrap core JavaScript
 	Placed at the end of the document so the pages load faster -->

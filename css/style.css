@@ -60,14 +60,16 @@ body {
 
 .jumbotron p {
   font-size: 20px;
-  color: grey;
+  color: rgb(226, 223, 223);
   margin-bottom: 40px;
+  text-shadow: 1px 1px 2px #05204a;
 }
 
 .jumbotron a {
   color: #edf6f9;
   text-decoration: underline;
   font-size: 20px;
+  text-shadow: 1px 1px 2px #05204a;
 }
 
 /* Footer */

@@ -1,69 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LIFT Science club</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-<link href="../css/style.css" rel="stylesheet">
-<!---TODO: add webpage icon-->
-<link rel="icon" type="image/jpg" href="images/">
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<style>
-    .animated-title {
-        animation: changeColor 3s infinite alternate;
-        font-family: 'Playfair Display', serif;
-        font-weight: bold;
-    }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFT Science club</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <!---TODO: add webpage icon -->
+    <link rel="icon" type="image/jpg" href="images/">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style>
+        .animated-title {
+            animation: changeColor 3s infinite alternate;
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+        }
 
-    .animated-title:hover {
-        transform: scale(1.2);
-        /* You can adjust the scale factor for the desired effect */
-    }
-</style>
+        .animated-title:hover {
+            transform: scale(1.2);
+        }
+    </style>
 </head>
 
-<div id="nav-placeholder"></div>
-<div class="jumbotron text-white">
-    <div class="container">
-        <h1 class="display-4 animated-title" id="animated-title">LIFT Science</h1>
-        <p class="lead my-3" style="font-family: Gill Sans, sans-serif">There is a gap in accessible education in
-            developing countries, particularly for science
-            education in marginalized communities. Our club aims to create a platform at UBC to address that gap. Our
-            aspiration is to create a substantial impact on people from the most underserved communities by gathering
-            the collective contributions of everyone who joins us.</p>
-        <hr class="my-4">
+<body>
+    <div id="nav-placeholder"></div>
+    <div class="jumbotron text-white">
+        <div class="container">
+            <h1 class="display-4 animated-title" id="animated-title">LIFT Science</h1>
+            <p class="lead my-3" style="font-family: Gill Sans, sans-serif">There is a gap in accessible education in
+                developing countries, particularly for science
+                education in marginalized communities. Our club aims to create a platform at UBC to address that gap.
+                Our
+                aspiration is to create a substantial impact on people from the most underserved communities by
+                gathering
+                the collective contributions of everyone who joins us.</p>
+            <hr class="my-4">
+            <a href="target_region.html">>>> Target region</a>
+        </div>
     </div>
-    <a href="target_region.html">>>> Target region</a>
-</div>
 
-</body>
+    <footer>
+        <p>&copy; 2023 LIFT Science Club</p>
+    </footer>
 
-
-<footer>
-    <p>&copy; 2023 LIFT Science Club</p>
-</footer>
-
-
-
-<!-- Bootstrap core JavaScript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script>
-    $.get("navbar.html", function (data) {
-        $("#nav-placeholder").replaceWith(data);
-    });
-</script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="../js/jquery-slim.min.js"><\/script>')</script>
-<script src="../js/popper.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-<script src="../js/holder.min.js"></script>
-
+    <!-- Bootstrap core JavaScript -->
+    <script>
+        $.get("navbar.html", function (data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="../js/jquery-slim.min.js"><\/script>')
+    </script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/holder.min.js"></script>
 </body>
 
 </html>

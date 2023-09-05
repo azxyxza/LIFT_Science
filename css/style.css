@@ -42,7 +42,7 @@ body {
 
 /* Jumbotron */
 .jumbotron {
-  background-image: url("./image/background.jpeg");
+  background-image: url("/image/background.jpeg");
   background-size: cover; /* Adjust background-size property as needed */
   background-repeat: no-repeat;
   padding: 5rem 0;

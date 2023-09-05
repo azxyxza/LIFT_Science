@@ -7,7 +7,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-<link href="./css/style.css" rel="stylesheet">
+<link href="/css/style.css" rel="stylesheet">
 <!---TODO: add webpage icon-->
 <link rel="icon" type="image/jpg" href="images/">
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -29,43 +29,7 @@
 </style>
 </head>
 
-<nav class="navbar navbar-expand-xl">
-    <a class="navbar-brand" href="./index.html">LIFT</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbar">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">About</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown">
-                    <a class="dropdown-item" href="./index/club_structure.html">Club Structure</a>
-                    <a class="dropdown-item" href="./index/target_region.html">Target Region</a>
-                    <a class="dropdown-item" href="./index/donation.html">Donation</a>
-                    <hr class="dropdown-divider">
-                    <a class="dropdown-item" href="./index/team.html">Meet our team</a>
-                </div>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="./index/resources.html">Resources</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./index/events.html">Events</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./index/contact.html">Contact</a>
-            </li>
-        </ul>
-        <form class="form-inline my-2 my-md-0 ms-auto">
-            <input class="form-control" type="text" placeholder="Search">
-        </form>
-    </div>
-</nav>
-
+<div id="nav-placeholder"></div>
 <div class="jumbotron text-white">
     <div class="container">
         <h1 class="display-4 animated-title" id="animated-title">LIFT Science</h1>
@@ -76,7 +40,7 @@
             the collective contributions of everyone who joins us.</p>
         <hr class="my-4">
     </div>
-    <a href="./index/target_region.html">>>> Target region</a>
+    <a href="target_region.html">>>> Target region</a>
 </div>
 
 </body>
@@ -92,17 +56,17 @@
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script>
-    $.get("./index/navbar.html", function (data) {
+    $.get("navbar.html", function (data) {
         $("#nav-placeholder").replaceWith(data);
     });
 </script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="./js/jquery-slim.min.js"><\/script>')</script>
-<script src="./js/popper.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script src="./js/holder.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/jquery-slim.min.js"><\/script>')</script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/holder.min.js"></script>
 
 </body>
 
